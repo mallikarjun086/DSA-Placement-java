@@ -2,7 +2,7 @@
 
 ## 📊 Progress
 
-* Problems Solved: 43 / 150
+* Problems Solved: 45 / 150
 * Daily Goal: 1–2 problems
 * Start Date: Feb 2026
 * Target: Backend / SDE Role (Spring Boot)
