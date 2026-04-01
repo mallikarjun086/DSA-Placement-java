@@ -1,3 +1,19 @@
+/*
+Problem: LeetCode 213 - House Robber II
+Pattern: Dynamic Programming
+Difficulty: Medium
+
+Approach:
+- Houses are arranged in a circular manner → first and last cannot be robbed together
+- Break into two cases:
+    1. Rob houses from index 0 to n-2
+    2. Rob houses from index 1 to n-1
+- Apply House Robber I logic on both cases
+- Return the maximum of both results
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
 class Solution {
     public int rob(int[] nums) {
         if(nums.length < 2) return nums[0];
